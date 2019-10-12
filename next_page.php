@@ -41,7 +41,7 @@ $(document).ready(function() {
 <body>
 	<div class="outer_div">
             <h1 class=welcome align=center>Welcome</h1>
-            <h2 class=welcome align=center>CSRF prevention - Double Submit Cookie Pattern</h3>
+            <h2 class=welcome align=center>CSRF prevention - Synchronizer Token Pattern</h3>
             <form class="form_" action="verify.php" method="post">
                 <div class=inner_div>
                     <label class=welcome >Please Enter your Message Below:</label><br><br><input type="text" class=input_text id="uname" name="uname" ><br><br><br>
